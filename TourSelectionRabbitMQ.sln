@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TourSelectionRabbitMQ", "TourSelectionRabbitMQ.csproj", "{D4364224-DB7B-459E-A084-85CF490CF4CD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{75E13149-E15C-49B7-AD6C-327DD087B28E} = {75E13149-E15C-49B7-AD6C-327DD087B28E}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecieverTopicRabbit", "..\RecieverTopicRabbit\RecieverTopicRabbit.csproj", "{75E13149-E15C-49B7-AD6C-327DD087B28E}"
 EndProject
